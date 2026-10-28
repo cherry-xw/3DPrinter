@@ -2,3 +2,12 @@ mainsail.cfg
 /music/
 print_area_bed_mesh.cfg
 timelapse.cfg
+
+# 自动备份、本地凭据及 Python 缓存
+printer-*.cfg
+*.bkp
+*.bak
+.env
+.env.*
+__pycache__/
+*.py[cod]
